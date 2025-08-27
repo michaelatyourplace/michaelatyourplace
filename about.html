@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Michael At Your Place</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-black text-white">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-black/90 shadow-lg fixed top-0 w-full z-50">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <a class="flex-shrink-0" href="/">
+              <img src="https://placehold.co/150x50/dc3545/FFFFFF?text=Logo" alt="Company Logo" class="h-10 w-auto rounded-lg">
+            </a>
+          </div>
+          <div class="hidden md:block">
+            <div class="ml-10 flex items-baseline space-x-4">
+              <a href="/" class="text-white hover:text-red-500 px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+              <a href="/about.html" class="text-white hover:text-red-500 px-3 py-2 rounded-md text-sm font-medium transition-colors">About</a>
+              <a href="/photos.html" class="text-white hover:text-red-500 px-3 py-2 rounded-md text-sm font-medium transition-colors">Photos</a>
+              <a href="/contact.html" class="text-white hover:text-red-500 px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+              <a href="/privacy-policy.html" class="text-white hover:text-red-500 px-3 py-2 rounded-md text-sm font-medium transition-colors">Privacy Policy</a>
+            </div>
+          </div>
+          <div class="-mr-2 flex md:hidden">
+            <button type="button" class="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-controls="mobile-menu" aria-expanded="false" onclick="toggleMobileMenu()">
+              <span class="sr-only">Open main menu</span>
+              <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+              <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile menu, show/hide based on menu state. -->
+      <div class="md:hidden hidden" id="mobile-menu">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <a href="/" class="text-white hover:text-red-500 block px-3 py-2 rounded-md text-base font-medium transition-colors">Home</a>
+          <a href="/about.html" class="text-white hover:text-red-500 block px-3 py-2 rounded-md text-base font-medium transition-colors">About</a>
+          <a href="/photos.html" class="text-white hover:text-red-500 block px-3 py-2 rounded-md text-base font-medium transition-colors">Photos</a>
+          <a href="/contact.html" class="text-white hover:text-red-500 block px-3 py-2 rounded-md text-base font-medium transition-colors">Contact</a>
+          <a href="/privacy-policy.html" class="text-white hover:text-red-500 block px-3 py-2 rounded-md text-base font-medium transition-colors">Privacy Policy</a>
+        </div>
+      </div>
+    </nav>
+    <script>
+      function toggleMobileMenu() {
+        const menu = document.getElementById('mobile-menu');
+        menu.classList.toggle('hidden');
+      }
+    </script>
+
+    <!-- Main Content Section -->
+    <div class="pt-24 pb-8 min-h-screen">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-red-600 text-center mb-10">About Michael At Your Place</h1>
+        
+        <!-- Photo Placeholder -->
+        <div class="mb-8">
+            <img src="charleston-male-strippers.png" alt="Placeholder image for About page" class="w-full h-auto rounded-lg shadow-lg">
+        </div>
+
+        <!-- About the Business Section -->
+        <div class="bg-blue-600 p-8 rounded-lg shadow-lg mb-8">
+          <p class="text-lg leading-relaxed mb-4">
+            Michael At Your Place is an entertainer service in the Charleston area that provides private party shows for bachelorette parties, birthday parties, and "just because" events. This business offers male adult entertainment for private parties, including bachelorette, divorce, and birthday celebrations.
+          </p>
+          <p class="text-lg leading-relaxed font-bold mb-4">
+            This is not a nationwide agency.
+          </p>
+          <p class="text-lg leading-relaxed mb-4">
+            I do not know, have never met, or associate with any competitors or other dancers in the Charleston area. This business only exists in Charleston, SC.
+          </p>
+        </div>
+
+        <!-- Business Philosophy Section -->
+        <div class="bg-blue-600 p-8 rounded-lg shadow-lg mb-8">
+          <h2 class="text-2xl sm:text-3xl font-bold mb-4">About the Business</h2>
+          <p class="text-lg leading-relaxed mb-4">
+            This service caters to divorce, birthday, and bachelorette events where a male entertainer is at your service. You know I am coming, there is not a gallery of men's photos or outdated photos. Michael At Your Place is a quality option for hiring a male entertainer for private parties.
+          </p>
+          <p class="text-lg leading-relaxed mb-4">
+            My purpose as a male entertainer is to receive bookings from clients and customers and then deliver male adult entertainment to them. My reviews show I have quality, my pricing is clear, and I am straightforward about the process. Research my services and customer satisfaction levels to find a reliable and reputable entertainer.
+          </p>
+          <p class="text-lg leading-relaxed mb-4">
+            Reviews: The Knot – Trust Index
+          </p>
+        </div>
+
+        <!-- Sell Points Section -->
+        <div class="bg-blue-600 p-8 rounded-lg shadow-lg">
+          <h2 class="text-2xl sm:text-3xl font-bold mb-4">Michael At Your Place Selling Points:</h2>
+          <ul class="list-disc list-inside space-y-2 text-lg leading-relaxed">
+            <li>I have a flat rate and tips are not mandatory, Venmo works.</li>
+            <li>You pay on arrival, no deposit.</li>
+            <li>Less talk, more dance.</li>
+            <li>Confidential and discreet.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
